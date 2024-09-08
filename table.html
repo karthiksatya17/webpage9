@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Table</title>
+    <style>
+.a{  border-collapse: collapse;
+margin: 25px 0;
+height: 300px; min-width: 600px; border: 1px solid rgba(211, 211, 211, 11.5em); border-radius: 2px 0;}
+thead tr{background-color: rgb(141, 111, 111); color: white;
+text-align: left; font-weight: bold; font-size: 1em;}
+tr{border-bottom: 1px solid lightgray;}
+td{padding: 10px 2px; } th{padding: 10px 2px;}
+.a tbody tr:nth-of-type(even){background-color: rgb(211,211,211); color: rgb(141, 111, 111);}
+.a tbody tr:last-of-type{border-bottom: 2px solid rgb(141, 111, 111);}
+    </style>
+</head>
+<body>
+
+            <table class="a">
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Availabilty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 <tr>
+                    <td>Asus Laptop</td>
+                    <td>Electronics</td>
+                    <td>20</td>
+                    <td>35999/-</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Sony Headphones</td>
+                    <td>Accesories</td>
+                    <td>22</td>
+                    <td>9899/-</td>
+                    <td>In Stock</td></tr>
+                <tr>
+                    <td>Asus Charger</td><td>Accesories</td><td>20</td><td>4999/-</td><td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>One Plus 11</td><td>Electronics</td><td>10</td><td>40000/-</td><td>only 4 available</td></tr>
+                <tr>
+                    <td>Mouse Pads</td><td>Accesories</td><td>20</td><td>15000/-</td><td>No Stock</td></tr>
+                          </tbody>  </table>
+</body>
+</html>
